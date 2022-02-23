@@ -31,7 +31,7 @@
       overflow-x: hidden;
       width: 100vw;
       height: 100vh;
-      background-image: url(/images/pattern-background-desktop.svg);
+      background: url(/images/pattern-background-desktop.svg) no-repeat top center;
       background-color: #E0E8FF;
       background-repeat: no-repeat;
       background-size: contain;
@@ -204,26 +204,29 @@
   </style>
 </head>
 <body>
- <div class="card-content">
-   <div class="card">
-      <img class="img-hero" src="images/illustration-hero.svg" alt="">
-      <p class="title">Order Summary</p>
-      <p class="p-description"> 
-        You can now listen to millions of songs, audiobooks, and podcasts on any 
-        device anywhere you like!
-      </p>
-      <div class="rectangulo-detalle-precio">
-        <img src="images/icon-music.svg" alt="Icon Music">
-        <div class="info-plan">
-          <span>Annual Plan</span>
-          <span>$59.99/year</span>
+<main role="main">
+  <div class="card-content">
+    <div class="card">
+        <img class="img-hero" src="images/illustration-hero.svg" alt="background hero img">
+        <p class="title">Order Summary</p>
+        <p class="p-description"> 
+          You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!
+        </p>
+        <div class="rectangulo-detalle-precio">
+          <img src="images/icon-music.svg" alt="Icon Music">
+          <div class="info-plan">
+            <span>Annual Plan</span>
+            <span>$59.99/year</span>
+          </div>
+          <span class="change">Change</span>
         </div>
-        <span class="change">Change</span>
-      </div>
-      <button>Proceed to Payment</button>
-      <span class="cancel">Cancel Order</span>
-   </div>
- </div>
+        <button>Proceed to Payment</button>
+        <span class="cancel">Cancel Order</span>
+    </div>
+  </div>
+</main>
+
 
  
   <div class="attribution">
